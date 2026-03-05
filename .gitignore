@@ -1,0 +1,49 @@
+﻿# Visual Studio / .NET
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+release/
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# NuGet packages (restore via packages.config)
+packages/
+!**/packages.config
+
+# Logs
+*.log
+logs/
+Logs/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Test and coverage
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Rider / ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# JetBrains
+.idea/
+
+# Local env
+.env
+.env.*
